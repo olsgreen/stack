@@ -1,3 +1,13 @@
+/**
+ * Register a bootstrap object in a namespace:
+ * 
+ * <script>app.bootstraps.register(object, 'namespace');</script>
+ *
+ * Execute objects within a namespace:
+ * 
+ * <script>app.bootstraps.init(['namespace1', 'namespace2']);</script>
+ */
+
 /*
  | Namespace
  */
@@ -53,11 +63,6 @@ var app = window.App = { bootstraps: { global: {} }, utils: {} };
         var pageBottom = $('.content').height() - $(window).height() - 50;
         return $(window).scrollTop() > pageBottom;
     };
-
-    app.bootstraps.register({
-
-
-    });
 
 }(jQuery));
 
