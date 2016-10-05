@@ -1,0 +1,19 @@
+{
+  "name": "stack",
+  "version": "0.1.0",
+  "description": "Extremely simple modular code loading for small websites.",
+  "main": "src/stack.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/olsgreen/stack.git"
+  },
+  "author": "Oliver Green <oliver@boxedcode.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/olsgreen/stack/issues"
+  },
+  "homepage": "https://github.com/olsgreen/stack#readme"
+}
